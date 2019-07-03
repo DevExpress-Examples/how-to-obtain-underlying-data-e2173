@@ -5,7 +5,7 @@ Imports System.Data
 Imports System.Linq
 Imports System.Windows
 
-Namespace HowtoObtainUnderlyingData
+Namespace HowToObtainUnderlyingData
 	''' <summary>
 	''' Interaction logic for App.xaml
 	''' </summary>

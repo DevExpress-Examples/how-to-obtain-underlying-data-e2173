@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace HowtoObtainUnderlyingData {
+namespace HowToObtainUnderlyingData {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();

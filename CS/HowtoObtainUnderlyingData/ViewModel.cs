@@ -2,18 +2,18 @@
 using DevExpress.Mvvm.DataAnnotations;
 using DevExpress.Mvvm.POCO;
 using DevExpress.Xpf.PivotGrid;
-using HowtoObtainUnderlyingData.NwindDataSetTableAdapters;
+using HowToObtainUnderlyingData.NWindDataSetTableAdapters;
+using static HowToObtainUnderlyingData.NWindDataSet;
 
-namespace HowtoObtainUnderlyingData {
+namespace HowToObtainUnderlyingData
+{
     [POCOViewModel]
     public class ViewModel {
-        NwindDataSet.SalesPersonDataTable salesPersonDataTable = new NwindDataSet.SalesPersonDataTable();
         SalesPersonTableAdapter salesPersonDataAdapter = new SalesPersonTableAdapter();
-
-        public NwindDataSet.SalesPersonDataTable DataSource { get { return salesPersonDataTable; } }
+        public SalesPersonDataTable DataSource { get; } = new SalesPersonDataTable();
 
         protected ViewModel() {
-            salesPersonDataAdapter.Fill(salesPersonDataTable);
+            salesPersonDataAdapter.Fill(DataSource);
         }
 
         public void ShowDrillDownData(CellInfo cellInfo) {

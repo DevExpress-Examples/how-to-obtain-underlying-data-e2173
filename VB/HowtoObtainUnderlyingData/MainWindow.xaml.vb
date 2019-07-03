@@ -1,6 +1,6 @@
 ﻿Imports System.Windows
 
-Namespace HowtoObtainUnderlyingData
+Namespace HowToObtainUnderlyingData
 	Partial Public Class MainWindow
 		Inherits Window
 

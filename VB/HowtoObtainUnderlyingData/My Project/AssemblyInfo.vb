@@ -7,12 +7,12 @@ Imports System.Windows
 ' General Information about an assembly is controlled through the following 
 ' set of attributes. Change these attribute values to modify the information
 ' associated with an assembly.
-<Assembly: AssemblyTitle("HowtoObtainUnderlyingData")>
+<Assembly: AssemblyTitle("HowToObtainUnderlyingData")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("HowtoObtainUnderlyingData")>
-<Assembly: AssemblyCopyright("Copyright ©  2010")>
+<Assembly: AssemblyProduct("HowToObtainUnderlyingData")>
+<Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 

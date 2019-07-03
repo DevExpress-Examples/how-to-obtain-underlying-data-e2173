@@ -1,0 +1,8 @@
+﻿Namespace HowToObtainUnderlyingData
+End Namespace
+
+Namespace HowToObtainUnderlyingData
+End Namespace
+
+Namespace HowToObtainUnderlyingData
+End Namespace
